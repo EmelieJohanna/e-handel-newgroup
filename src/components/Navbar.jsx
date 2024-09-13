@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { useSelector } from "react-redux";
-import SearchItem from "./searchItem";
+import SearchItem from "./SearchItem";
 import { useNavigate } from "react-router-dom";
 
 function Navbar() {
