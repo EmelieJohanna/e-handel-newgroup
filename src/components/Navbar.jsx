@@ -23,7 +23,7 @@ function Navbar() {
   // if cart is empty, dont redirect, eme
   function handleCartClick() {
     if (numItemsInCart > 0) {
-      navigate("/CartPage");
+      navigate("/cart");
     }
   }
 
@@ -36,7 +36,7 @@ function Navbar() {
       <div className="mx-auto flex items-center justify-between">
         <div className="hover:cursor-pointer" onClick={handleLogoClick}>
           <img
-            src="logo.png"
+            src="logo.webp"
             alt="Logo"
             className="w-[120px] h-[60px]  rounded-md"
           />

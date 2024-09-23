@@ -1,6 +1,7 @@
 import CartItem from "../components/CartItem";
 import { useSelector } from "react-redux";
 import { FaArrowRight } from "react-icons/fa";
+import MetaTags from "../components/MetaTags";
 
 const CartPage = () => {
   const { cartItems, orderTotal } = useSelector((state) => state.cart);
@@ -15,6 +16,11 @@ const CartPage = () => {
 
   return (
     <div className="container mx-auto p-6">
+      <MetaTags
+        title="Your Shopping Cart - New Group"
+        description="Review the items in your cart before proceeding to checkout."
+        url="https://e-handel-newgroup.vercel.app/CartPage"
+      />
       <div className="flex flex-col md:flex-row justify-between gap-8">
         <div className="w-full md:w-[65%] flex flex-col gap-4">
           <h2 className="font-bold text-3xl mb-4">Your Cart:</h2>

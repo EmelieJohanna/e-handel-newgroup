@@ -6,7 +6,7 @@ const ProductCard = ({ imgSrc, imgAlt, title, price, id }) => {
   const dispatch = useDispatch();
 
   function handleRedirect(id) {
-    navigate(`/productid/${id}`);
+    navigate(`/product/${id}`);
   }
 
   const addToCart = (e) => {

@@ -4,7 +4,7 @@ const SearchItem = ({ imgSrc, imgAlt, title, id }) => {
   const navigate = useNavigate();
 
   function handleRedirect(id) {
-    navigate(`/productid/${id}`);
+    navigate(`/product/${id}`);
   }
 
   return (
