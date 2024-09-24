@@ -41,14 +41,14 @@ This version builds on the original group effort, introducing various improvemen
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/e-commerce-webshop.git
+   git clone https://github.com/EmelieJohanna/e-handel-newgroup.git
 
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd e-commerce-webshop
+   cd e-handel-newgroup
 
    ```
 
