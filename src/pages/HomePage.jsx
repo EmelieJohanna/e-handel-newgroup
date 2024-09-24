@@ -10,14 +10,14 @@ const HomePage = () => {
       <MetaTags
         title="Shop Our Products - New Group"
         description="Browse our wide range of products, from clothing to accessories."
-        url="https://e-handel-newgroup.vercel.app"
+        url="https://e-handel-newgroup.vercel.app/"
       />
       <div className="relative flex justify-center items-center flex-col ">
-        <div className="p-20 w-full">
+        <div className="w-full">
           <img
             src="hero.webp"
             alt="Fashion"
-            className="w-full h-[400px] shadow-lg"
+            className="w-full h-[400px] object-cover shadow-lg"
           />
         </div>
 

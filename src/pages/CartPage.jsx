@@ -19,7 +19,7 @@ const CartPage = () => {
       <MetaTags
         title="Your Shopping Cart - New Group"
         description="Review the items in your cart before proceeding to checkout."
-        url="https://e-handel-newgroup.vercel.app/CartPage"
+        url="https://e-handel-newgroup.vercel.app/cart"
       />
       <div className="flex flex-col md:flex-row justify-between gap-8">
         <div className="w-full md:w-[65%] flex flex-col gap-4">

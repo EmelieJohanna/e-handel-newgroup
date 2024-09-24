@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addItem } from "../redux/slice/cartSlice";
+
 const ProductCard = ({ imgSrc, imgAlt, title, price, id }) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -27,13 +28,13 @@ const ProductCard = ({ imgSrc, imgAlt, title, price, id }) => {
 
   return (
     <div
-      className="border p-4 rounded shadow hover:scale-105 transition-transform hover:shadow-lg hover:cursor-pointer"
+      className="flex flex-col justify-between h-full border px-4 pt-6 rounded shadow hover:scale-105 transition-transform hover:shadow-lg hover:cursor-pointer "
       onClick={() => handleRedirect(id)}
     >
       <img
         src={imgSrc}
         alt={imgAlt}
-        className="w-full h-48 object-contain mb-2"
+        className="w-full h-48 object-contain mb-2 pt-2"
       />
       <div className="flex flex-col m-5 gap-5">
         <h2 className="text-lg font-semibold">{title}</h2>

@@ -15,7 +15,7 @@ const ProductId = () => {
         title={product.title}
         description={product.description}
         image={product.image}
-        url={`https://your-website.com/product/${product.id}`}
+        url={`https://e-handel-newgroup.vercel.app/product/${product.id}`}
       />
       <ProductItem
         key={product.id}
